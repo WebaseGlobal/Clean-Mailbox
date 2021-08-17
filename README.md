@@ -18,8 +18,8 @@ status, messages = imap.search(None, 'SINCE "01-JAN-2021"')
 # Retrieve Emails until Date
 status, messages = imap.search(None, 'BEFORE "01-JAN-2021"')
 
-#SSL
+# SSL
 imaplib.IMAP4_SSL("imap.domain.com")
 
-#NO SSL
+# NO SSL
 imaplib.IMAP4("imap.domain.com")
